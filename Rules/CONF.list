@@ -1,0 +1,10 @@
+# 内容：Conference
+
+# Teams
+DOMAIN-KEYWORD,teams
+DOMAIN-SUFFIX,teams.microsoft.com
+DOMAIN-SUFFIX,login.microsoftonline.com
+DOMAIN-SUFFIX,codepush.azurewebsites.net
+
+#Skype
+DOMAIN-SUFFIX,skype.com
