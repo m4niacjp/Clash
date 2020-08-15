@@ -5,6 +5,9 @@ DOMAIN-KEYWORD,teams
 DOMAIN-SUFFIX,teams.microsoft.com
 DOMAIN-SUFFIX,login.microsoftonline.com
 DOMAIN-SUFFIX,codepush.azurewebsites.net
+DOMAIN-SUFFIX,aria.microsoft.com
 
 #Skype
 DOMAIN-SUFFIX,skype.com
+
+#Zoom
