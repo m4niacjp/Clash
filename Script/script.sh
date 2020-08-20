@@ -88,7 +88,7 @@ sed -i 's/游戏专用/GAMING/g' /temp/test.yaml
 sed -i 's/zhs.fun/m4niac.com/g' /temp/test.yaml
 sed -i 's/zhshi.gitlab.io/m4niac.com/g' /temp/test.yaml
 sed -i 's/天/DAYS/g' /temp/test.yaml
-awk -v days=30 '/等级3剩/ { for(i=1;i<=NF;i++)
+awk -v days=0 '/等级3剩/ { for(i=1;i<=NF;i++)
   if ( $i ~ /等级3剩:/ ) {
      split($i,A,":") ;
      printf "s/%s/%s/\n",$i,"DAYS:" A[2]-days; exit ;}}' /temp/test.yaml | sed -i -f - /temp/test.yaml
@@ -106,7 +106,7 @@ sed -i 's/游戏专用/GAMING/g' /temp/test.yaml
 sed -i 's/zhs.fun/m4niac.com/g' /temp/test.yaml
 sed -i 's/zhshi.gitlab.io/m4niac.com/g' /temp/test.yaml
 sed -i 's/天/DAYS/g' /temp/test.yaml
-awk -v days=8 '/等级3剩/ { for(i=1;i<=NF;i++)
+awk -v days=0 '/等级3剩/ { for(i=1;i<=NF;i++)
   if ( $i ~ /等级3剩:/ ) {
      split($i,A,":") ;
      printf "s/%s/%s/\n",$i,"DAYS:" A[2]-days; exit ;}}' /temp/test.yaml | sed -i -f - /temp/test.yaml
@@ -124,7 +124,7 @@ sed -i 's/游戏专用/GAMING/g' /temp/test.yaml
 sed -i 's/zhs.fun/m4niac.com/g' /temp/test.yaml
 sed -i 's/zhshi.gitlab.io/m4niac.com/g' /temp/test.yaml
 sed -i 's/天/DAYS/g' /temp/test.yaml
-awk -v days=30 '/等级3剩/ { for(i=1;i<=NF;i++)
+awk -v days=0 '/等级3剩/ { for(i=1;i<=NF;i++)
   if ( $i ~ /等级3剩:/ ) {
      split($i,A,":") ;
      printf "s/%s/%s/\n",$i,"DAYS:" A[2]-days; exit ;}}' /temp/test.yaml | sed -i -f - /temp/test.yaml
@@ -142,7 +142,7 @@ sed -i 's/游戏专用/GAMING/g' /temp/test.yaml
 sed -i 's/zhs.fun/m4niac.com/g' /temp/test.yaml
 sed -i 's/zhshi.gitlab.io/m4niac.com/g' /temp/test.yaml
 sed -i 's/天/DAYS/g' /temp/test.yaml
-awk -v days=30 '/等级3剩/ { for(i=1;i<=NF;i++)
+awk -v days=0 '/等级3剩/ { for(i=1;i<=NF;i++)
   if ( $i ~ /等级3剩:/ ) {
      split($i,A,":") ;
      printf "s/%s/%s/\n",$i,"DAYS:" A[2]-days; exit ;}}' /temp/test.yaml | sed -i -f - /temp/test.yaml
