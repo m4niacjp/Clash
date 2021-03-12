@@ -3,7 +3,8 @@
 DOMAIN-SUFFIX,rai-it.akamaihd.net
 DOMAIN-SUFFIX,raiplay.it
 DOMAIN-SUFFIX,msvdn.net
-DOMAIN,mediapolisvod.rai.it
+DOMAIN-SUFFIX,mediapolisvod.rai.it
+DOMAIN-SUFFIX,mediapolis.rai.it
 DOMAIN,uspushmp4-vh.akamaihd.net
 #MEDIASETPREMIUM
 DOMAIN-SUFFIX,mediasetplay.mediaset.it
