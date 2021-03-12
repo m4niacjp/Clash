@@ -1,4 +1,4 @@
-# ITALY
+#ITALY
 #RAI
 DOMAIN-SUFFIX,rai-it.akamaihd.net
 DOMAIN-SUFFIX,raiplay.it
@@ -6,7 +6,6 @@ DOMAIN-SUFFIX,msvdn.net
 DOMAIN-SUFFIX,mediapolisvod.rai.it
 DOMAIN-SUFFIX,mediapolis.rai.it
 DOMAIN-SUFFIX,download-rai-it.akamaized.net
-DOMAIN-KEYWORD,rai
 DOMAIN,uspushmp4-vh.akamaihd.net
 #MEDIASETPREMIUM
 DOMAIN-SUFFIX,mediasetplay.mediaset.it
