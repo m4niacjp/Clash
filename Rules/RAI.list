@@ -20,5 +20,6 @@ DOMAIN-SUFFIX,fwmrm.net
 #DPLAY
 DOMAIN-SUFFIX,discoveryplus.it
 DOMAIN-SUFFIX,dplay.com
-DOMAIN-SUFFIX,disco-api.com
+DOMAIN,eu2-prod.disco-api.com
+DOMAIN,dplaysouth-vod.akamaized.net
 GEOIP,IT
