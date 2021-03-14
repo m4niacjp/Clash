@@ -1,1 +1,2 @@
 https://sub.d1.mk/sub?
+https://submod.vercel.app/
